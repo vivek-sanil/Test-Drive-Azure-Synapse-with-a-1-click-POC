@@ -477,7 +477,7 @@
 			},
 			"KeyVaultName": {
 				"type": "string",
-				"defaultValue": " kvcon3k3ya7j3vv2fwpoc"
+				"defaultValue": "kvcon3k3ya7j3vv2fwpoc"
 			},
 			"datalakeAccountName": {
 				"type": "string",
