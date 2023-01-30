@@ -5,8 +5,14 @@
 		"workspaceName": {
 			"value": "con3k3ya7j3vv2fwpocws1"
 		},
-		"TripFaresSynapseAnalyticsLinkedService_connectionString": {
+		"CosmosDbNoSql1_connectionString": {
 			"value": ""
+		},
+		"TripFaresSynapseAnalyticsLinkedService_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=@{linkedService().SynapseWorkspaceName};Initial Catalog=@{linkedService().SQLDedicatedPoolName};User ID=@{linkedService().SQLLoginUsername}"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://con3k3ya7j3vv2fwpoc.dfs.core.windows.net/"
 		},
 		"HttpServerTripDataLinkedService_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/Azure/Test-Drive-Azure-Synapse-with-a-1-click-POC/main/tripDataAndFaresCSV/trip-data.csv"
